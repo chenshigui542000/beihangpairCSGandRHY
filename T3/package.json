@@ -2,9 +2,9 @@
   "name": "t3-test",
   "version": "1.0.0",
   "description": "",
-  "main": "testt3-1.js",
+  "main": "test.js",
   "scripts": {
-    "submit-test": "node testt3-1.js"
+    "submit-test": "node test.js"
   },
   "type": "module",
   "author": "BUAAASE-2024",
