@@ -132,7 +132,7 @@ for(let i=0; i<6; ++i) {
 if(isEmpty == 1) {
   var ret : i32;
   for(let k = 7;k < 13;++k){
-    box[flag1] += box[k];
+    box[flag2] += box[k];
     box[k] = 0;
   }
   ret = box[flag1];
@@ -163,7 +163,7 @@ for(let i=7; i<13; i++) {
 if(isEmpty == 1) {
   
   for(let k = 0;k < 6;++k){
-    box[flag2] += box[k];
+    box[flag1] += box[k];
     box[k] = 0;
   }
   ret = box[flag1];
